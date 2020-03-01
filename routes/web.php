@@ -11,18 +11,18 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+ Route::get('/', function () {
+     return view('welcome');
+ });
 
 
-Route::get('/', function(){
-    return 'Hola desde la página de inicio';
-});
+//Route::get('/', function(){
+//    return 'Hola desde la página de inicio';
+//});
 
 
 Route::get('/contacto/{var}', function(){
-    dd(request()->var);
+    //dd(request()->var);
     if(empty(request()->var))
         return 'bienvenido a la página de contacto ';
     return 'bienvenido a la página de contacto ' . request()->var;
@@ -31,3 +31,6 @@ Route::get('/contacto/{var}', function(){
 Route::get('/foro', function(){
     return 'Foro de la clase';
 });
+
+//prácticas 
+Route::get('/practicas', 'PracticasController@index')->name('practicas.index');
