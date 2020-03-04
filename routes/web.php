@@ -34,3 +34,4 @@ Route::get('/foro', function(){
 
 //prácticas 
 Route::get('/practicas', 'PracticasController@index')->name('practicas.index');
+Route::get('/practicas/{practica}', 'PracticasController@view')->name('practicas.view');

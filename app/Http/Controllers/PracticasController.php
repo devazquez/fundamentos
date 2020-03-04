@@ -17,9 +17,16 @@ class PracticasController extends Controller
         
     }
     /**
-     * Muestra la sección de prácticas.
+     * Despliega la sección de prácticas.
      */
     public function index(){
         return view('practicas.home');
+    }
+
+    /**
+     * Despliega una práctica en particular
+     */
+    public function view($practica){
+        return view('practicas.practica', compact('practica') );
     }
 }
