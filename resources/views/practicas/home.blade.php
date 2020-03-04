@@ -27,20 +27,40 @@
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="list-group">
-                                <li class="list-group-item">Práctica 1</li>
-                                <li class="list-group-item">Práctica 2</li>
-                                <li class="list-group-item">Práctica 3</li>
-                                <li class="list-group-item">Práctica 4</li>
-                                <li class="list-group-item">Práctica 5</li>
+                                <li class="list-group-item">
+                                    <a class="navbar-brand" href="{{ route('practicas.view', 1 )}}">Práctica 1</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="navbar-brand" href="{{ route('practicas.view', 2 )}}">Práctica 2</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="navbar-brand" href="{{ route('practicas.view', 3 )}}">Práctica 3</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="navbar-brand" href="{{ route('practicas.view', 4 )}}">Práctica 4</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="navbar-brand" href="{{ route('practicas.view', 5 )}}">Práctica 5</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <ul class="list-group">
-                                <li class="list-group-item">Práctica 6</li>
-                                <li class="list-group-item">Práctica 7</li>
-                                <li class="list-group-item">Práctica 8</li>
-                                <li class="list-group-item">Práctica 9</li>
-                                <li class="list-group-item">Práctica 10</li>
+                        <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a class="navbar-brand" href="{{ route('practicas.view', 6 )}}">Práctica 6</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="navbar-brand" href="{{ route('practicas.view', 7 )}}">Práctica 7</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="navbar-brand" href="{{ route('practicas.view', 8 )}}">Práctica 8</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="navbar-brand" href="{{ route('practicas.view', 9 )}}">Práctica 9</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="navbar-brand" href="{{ route('practicas.view', 10 )}}">Práctica 10</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
