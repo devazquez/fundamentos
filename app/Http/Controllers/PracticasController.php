@@ -18,7 +18,7 @@ class PracticasController extends Controller
         $this->ejercicios = array(
            '1' => array('2' =>'funcionamiento_css', '4' =>'funcionamiento_css2', '7'=>'css_medios'),
            '2' => array('2'=>'selector_universal', '5'=>'selector_descendente', '7'=>'selector_clase2'),
-           '3' => array('1'=>'medidas2', '3'=>'anchura')
+           '3' => array('1'=>'medidas2', '3'=>'anchura','5'=>'margin','9'=>'margin-padding', '13'=>'border','14'=>'Proyecto')
 
         );
         $this->practicas = array(
@@ -32,6 +32,7 @@ class PracticasController extends Controller
      */
     public function index(){
         $practicas = $this->practicas;
+        
         return view('practicas.home', compact('practicas'));
     }
 
@@ -39,6 +40,9 @@ class PracticasController extends Controller
      * Despliega una práctica en particular
      */
     public function view($practica){
+        if(empty($this->practicas[$practica]))
+            return response()->view('errors.404', [], 404);
+        
         $ejercicios = $this->ejercicios[$practica];
         $nombrePractica = $this->practicas[$practica];
         //dd($ejercicios);

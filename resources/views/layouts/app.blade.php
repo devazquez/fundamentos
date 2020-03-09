@@ -74,20 +74,22 @@
     <hr>   
     <footer class="container">
         <div class="row">
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <div class="col-md-8">
+                <h2>Clase de diseño de interfaces de usuario</h2>
+                <p>Profesor 	Selene Marisol Martínez Ramírez	 lunes, miércoles y viernes de 	10am a 11am  en el salón	P104 </p>
+                <p>Ayudante 	Darío Emmanuel Vázquez Ceballos	martes y jueves  de	10am a 11am en el Salón 	P104 </p>
+                <p>Ayudante Lab. 	Magdiel Juárez Guerrero	 jueves de	16pm a 18pm  en el	Taller de Computación Visual e Innovación Tecnológica </p>
+                
             </div>
             <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div>
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <h2>Enlaces de Interés</h2>
+                <ul>
+                    <li><a href="https://uxdesign.cc/"> UX Collective </a></li>
+                    <li><a href="http://patterntap.com/patterntap"> Patterntap </a></li>
+                    <li><a href="https://www.w3.org/TR/WCAG21/"> WCAG21 </a></li>
+                    <li><a href="https://medium.com/"> Medium </a></li>
+                </ul>
+                
             </div>
         </div>
         <p>&copy;  innovasoft       Última actualización: 04/03/2020</p>
