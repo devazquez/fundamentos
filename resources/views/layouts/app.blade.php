@@ -75,14 +75,14 @@
     <footer class="container">
         <div class="row">
             <div class="col-md-8">
-                <h2>Clase de diseño de interfaces de usuario</h2>
+                <h4>Clase de diseño de interfaces de usuario</h4>
                 <p>Profesor 	Selene Marisol Martínez Ramírez	 lunes, miércoles y viernes de 	10am a 11am  en el salón	P104 </p>
                 <p>Ayudante 	Darío Emmanuel Vázquez Ceballos	martes y jueves  de	10am a 11am en el Salón 	P104 </p>
                 <p>Ayudante Lab. 	Magdiel Juárez Guerrero	 jueves de	16pm a 18pm  en el	Taller de Computación Visual e Innovación Tecnológica </p>
                 
             </div>
             <div class="col-md-4">
-                <h2>Enlaces de Interés</h2>
+                <h4>Enlaces de Interés</h4>
                 <ul>
                     <li><a href="https://uxdesign.cc/"> UX Collective </a></li>
                     <li><a href="http://patterntap.com/patterntap"> Patterntap </a></li>
