@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class PracticasController extends Controller
 {
+    private $ejercicios;
     /**
      * Create a new controller instance.
      *
@@ -13,7 +14,10 @@ class PracticasController extends Controller
      */
     public function __construct()
     {
-        
+        $this->ejercicios = array(
+           '1' => array('1','2'),
+           '2' => array('1','2','3')
+        );
         
     }
     /**
@@ -27,6 +31,8 @@ class PracticasController extends Controller
      * Despliega una práctica en particular
      */
     public function view($practica){
-        return view('practicas.practica', compact('practica') );
+        $ejercicios = $this->ejercicios[$practica];
+        //dd($ejercicios);
+        return view('practicas.practica', compact('practica', 'ejercicios') );
     }
 }
