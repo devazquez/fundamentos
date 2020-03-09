@@ -18,13 +18,15 @@ class PracticasController extends Controller
         $this->ejercicios = array(
            '1' => array('2' =>'funcionamiento_css', '4' =>'funcionamiento_css2', '7'=>'css_medios'),
            '2' => array('2'=>'selector_universal', '5'=>'selector_descendente', '7'=>'selector_clase2'),
-           '3' => array('1'=>'medidas2', '3'=>'anchura','5'=>'margin','9'=>'margin-padding', '13'=>'border','14'=>'Proyecto')
+           '3' => array('1'=>'medidas2', '3'=>'anchura','5'=>'margin','9'=>'margin-padding', '13'=>'border','14'=>'Proyecto'),
+           '4' => array('7'=>'postear', '14'=>'absolute','21'=>'foat', '22'=>'postear2'),
 
         );
         $this->practicas = array(
             '1'=> 'Funcionamiento del CSS',
             '2'=> 'Selectores CSS',
-            '3'=> 'Modelo de Caja'
+            '3'=> 'Modelo de Caja',
+            '4'=> 'Posicionamientos'
         ); 
     }
     /**
